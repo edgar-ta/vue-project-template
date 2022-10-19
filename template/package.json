@@ -6,8 +6,7 @@
         "build": "vite build",
         "preview": "vite preview --port 4173",
         "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-        "tail": "npx tailwindcss -i ./input.css -o ./main.css --watch",
-        "go": "source ./scripts.sh; go-vue;"
+        "tail": "npx tailwindcss -i ./input.css -o ./main.css --watch"
     },
     "dependencies": {
         "vue": "^3.2.38"
