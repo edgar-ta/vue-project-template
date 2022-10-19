@@ -1,8 +1,6 @@
 module.exports = {
     prompts: {
-        projectName: {
-            type: "string",
-            required: true,
+        name: {
             message: "Ingresa el nombre del proyecto (en kebab-case)"
         }
     },
